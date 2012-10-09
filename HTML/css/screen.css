@@ -98,13 +98,14 @@ a:hover
 			border-left: solid 1px black;
 			border-right: solid 1px black;
 			*/
+			margin-bottom:20px;
 		}
 		div.content div.subcontent
 		{
 			/*Will be modified to add images*/
 			font-size: 16px;
 		}
-		div.content div.subcontent div.subContainerPadding
+		div.content div.subcontent div.subContentPadding
 		{
 			padding-top: 10px;
 		}
@@ -120,6 +121,11 @@ a:hover
 		div.content h2
 		{
 			margin-top: 0px;
+		}
+		div.subcontent img#captchaImage
+		{
+			display: block;
+			margin: 0 auto;
 		}
 
 
@@ -166,4 +172,8 @@ div.clear
 div.line
 {
 	border-top:solid 1px gray;
+}
+div.hidden
+{
+	
 }
