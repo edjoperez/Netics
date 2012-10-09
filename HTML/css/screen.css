@@ -46,6 +46,10 @@ a:hover
 		{
 			float: left;
 		}
+		.right
+		{
+			float:right;
+		}
 		div#separator
 		{
 			height: 60px;
@@ -61,7 +65,7 @@ a:hover
 			padding-left: 15px;
 		}
 /*Content*/
-	div#content
+	div#container
 	{
 		border-top: 1px solid grey;
 		/*padding-bottom: 70px;*/
@@ -83,10 +87,9 @@ a:hover
 			margin: 0 auto;
 			width:840px;
 		}
-		div#container
+		div.content
 		{
 			margin: 0 auto;
-			min-height: 800px;
 			background-color: rgb(241,241,241);
 			width: 700px;
 			padding-left: 80px;
@@ -96,6 +99,29 @@ a:hover
 			border-right: solid 1px black;
 			*/
 		}
+		div.content div.subcontent
+		{
+			/*Will be modified to add images*/
+			font-size: 16px;
+		}
+		div.content div.subcontent div.subContainerPadding
+		{
+			padding-top: 10px;
+		}
+		div.content div.subcontent input
+		{
+			border: solid 1px grey;
+			height: 20px;
+		}
+		div.contentBorder
+		{
+			border: solid 1px blue;
+		}
+		div.content h2
+		{
+			margin-top: 0px;
+		}
+
 
 /*Bottom*/
 	div#bottom

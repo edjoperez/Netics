@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>HOME</title>
+	<title>Forgot Password</title>
 	<link rel="stylesheet" type="text/css" href="css/screen.css">
 	
 	<!-- Start Scripts -->
@@ -13,15 +13,33 @@
 </head>
 <body>
 	<div id="header">
-			<a href="/"><img src="images/logo.png" alt="Logo"></a>
+			<a href="/" class="left"><img src="images/logo.png" alt="Logo"></a>
+			<div id="separator" class="left"></div>
+			<div id="sectionName" class="left">
+				Forgot Password
+			</div>
 			<a id="signIn" class="sign" href="login" rel="lightbox">Sign In</a>
 			<a id="signUp" class="sign" href="">Sign Up</a>
 			<div class="clear"></div>
 	</div>
 	<div id="container" class="contentPadding">
-		<div id="containerSlider">
-			<div id="slider">
-				<a href="/Register"><img src="images/slider.png"></a>
+		<div class="content contentPadding contentBorder">
+			<div class="subcontent">
+				<h2>Having a trouble signing in?</h2>
+				<div>
+					<div>
+						Please insert your email to reset your password
+					</div>
+					<div class="subContainerPadding">
+						<input type="email" placeHolder="Email">
+					</div>
+					<div class="subContainerPadding">
+						<span><button>
+							Continue
+						</button></span>
+						<div class="clear"></div>
+					</div>
+				</div>	
 			</div>
 		</div>
 	</div>
