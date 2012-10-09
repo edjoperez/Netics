@@ -64,6 +64,7 @@ a:hover
 			color: #9FA2A6;
 			padding-left: 15px;
 		}
+
 /*Content*/
 	div#container
 	{
@@ -157,7 +158,19 @@ a:hover
 			display: inline;
 			margin-right: 20px;
 		}
-
+/*Messages*/
+div#forgotMessageContainer
+{
+	width: 300px;
+	border: solid 1px blue;
+	padding: 10px 20px;
+	background-color: white;
+}
+div#forgotMessageContainer button
+{
+	width: 40px;
+	text-align: center;
+}
 /*FOR TEST PORPOUSES
 div
 {
@@ -175,5 +188,5 @@ div.line
 }
 div.hidden
 {
-	
+	display: none;
 }
