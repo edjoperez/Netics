@@ -1,0 +1,85 @@
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/screen.css">
+	<style type="text/css">
+		div#loginContainer
+		{
+			padding: 10px 20px;
+			border: solid 1px blue;			
+			width: 360px;
+			background-color: white;
+		}
+		div#loginName
+		{
+			font-size: 18px;
+		}
+		div#loginContent
+		{
+			padding-left:20px;
+		}
+		div.loginRow
+			{
+				margin-top:7px;	
+			}
+		div.loginRow img
+			{
+				border-top: solid 1px blue;
+				border-left: solid 1px blue;
+				border-bottom: solid 1px blue;
+				float: left;
+			}
+
+		div.loginRow input.field
+			{
+				width:303px;
+				height: 34px;
+				border: solid 1px blue;
+			}
+		span.left
+			{
+				float:left;
+			}
+		span.right
+			{
+				float: right;
+			}
+		div.loginRow button
+			{
+				width: 65px;
+			}
+	</style>
+</head>
+<body>
+	<div id="loginContainer">
+		<div id="loginName">Login</div>
+		<div id="loginContent">
+			<div class="loginRow">
+				<img src="images/user.png" alt="User icon image">
+				<input type="email" placeHolder="Email" class="field">
+				<div class="clear"></div>
+			</div>
+			<div class="loginRow">
+				<img src="images/pass.png" alt="Pass icon image">
+				<input type="password" class="field" placeholder="Password">
+				<div class="clear"></div>
+			</div>
+			<div class="loginRow">
+				<span class="left">
+					<input type="checkbox">Remember Password
+				</span>
+				<span class="right">
+					<a href="forgot">Forgot your password?</a>
+				</span>
+				<div class="clear"></div>
+			</div>
+			<div class="loginRow">
+				<span class="right">
+					<a href="wall"><button>Log in</button></a>
+				</span>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

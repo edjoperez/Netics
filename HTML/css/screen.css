@@ -1,0 +1,143 @@
+body
+{
+	margin: 0px;	
+	font-size: small;
+	font-family: helvetica;
+}
+
+a
+{
+	text-decoration: none;
+	color: rgb(32,74,117);
+}
+
+a:hover
+{
+	color: rgb(78,122,166);
+}
+
+/*Header*/
+	div#header
+	{
+		height: 100px;
+		width:800px;
+		margin:0 auto;
+	}
+		a.sign
+		{
+			width: 108px;
+			float: right;
+			margin-top:37px;
+			height:27px;
+			margin-right: 20px;
+			background-color:rgb(53,197,5);
+			text-align: center;
+			line-height: 28px;
+			text-decoration: none;
+			font-size: 17px;
+			color: white;
+		}
+		a.sign:hover
+		{
+			background-color:rgb(31,95,3);
+			font-weight: bold;
+		}
+		.left
+		{
+			float: left;
+		}
+		div#separator
+		{
+			height: 60px;
+			width: 3px;
+			border-right: solid 1px grey;
+			margin-top: 15px;
+		}
+		div#sectionName
+		{
+			font-size: 32px;
+			margin-top: 30px;
+			color: #9FA2A6;
+			padding-left: 15px;
+		}
+/*Content*/
+	div#content
+	{
+		border-top: 1px solid grey;
+		/*padding-bottom: 70px;*/
+		text-align: justify;
+	}
+		div.contentPadding
+		{
+			padding-top:70px;
+			padding-bottom: 70px;			
+		}
+		
+		div#containerSlider
+		{
+			height: 360px;
+			background-color: rgb(67,136,204);
+		}
+		div#slider
+		{
+			margin: 0 auto;
+			width:840px;
+		}
+		div#container
+		{
+			margin: 0 auto;
+			min-height: 800px;
+			background-color: rgb(241,241,241);
+			width: 700px;
+			padding-left: 80px;
+			padding-right: 80px;
+			/*
+			border-left: solid 1px black;
+			border-right: solid 1px black;
+			*/
+		}
+
+/*Bottom*/
+	div#bottom
+	{
+		padding-top: 30px;
+		padding-bottom:25px;
+	}
+	div#nameContainer
+	{
+		float: left;
+		margin-top: 5px;
+		margin-left: 40px;
+	}
+	div#linksContainer
+	{
+		float: right;
+		margin-right: 40px;
+	}
+
+	div#linksContainer ul
+	{
+		list-style: none;
+		margin: 0 0 0 0;	
+	}
+		div#linksContainer ul li 
+		{
+			display: inline;
+			margin-right: 20px;
+		}
+
+/*FOR TEST PORPOUSES
+div
+{
+	border: solid red 1px;
+}
+
+/*UTILS*/
+div.clear
+	{
+	clear: both;
+}
+div.line
+{
+	border-top:solid 1px gray;
+}
