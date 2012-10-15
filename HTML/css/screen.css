@@ -76,6 +76,7 @@ ul
 		border-top: 1px solid grey;
 		/*padding-bottom: 70px;*/
 		text-align: justify;
+		background-color: #CC0000;
 	}
 		div.contentPadding
 		{
@@ -86,7 +87,7 @@ ul
 		div#containerSlider
 		{
 			height: 360px;
-			background-color: rgb(67,136,204);
+			background-color: #CC0000;
 		}
 		div#slider
 		{
@@ -146,14 +147,11 @@ ul
 		{
 			width: 68%;
 		}
-
 		div#aboutContent div.textContainer > h1:first-child
 		{
 			font-weight: 300;
 			font-size: 32px;
 		}
-
-		
 		div#aboutContent div.left div.menu li
 		{
 			padding-top: 10px;
@@ -321,19 +319,3 @@ div.hidden
 }
 
 /* TESTING */
-body
-{
-
-}
-div#container
-{
-	background-color: #CC0000;;
-}
-div#containerSlider
-{
-	background-color: #CC0000;
-}
-div#bottom
-{
-	background-color: white;
-}

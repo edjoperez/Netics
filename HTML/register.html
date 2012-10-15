@@ -99,12 +99,12 @@
 					</div>
 					<div class="clear"></div>
 					<div class="buttonContainer">
-						<div class="right"><button>Next</button></div>
+						<div class="right"><button class="next">Next</button></div>
 					</div>
 					<div class="clear"></div>
 				</div>
 			</div>
-			<div class="page">
+			<div class="page hidden">
 				<div class="pageTitle">
 					<strong>Academic Information -</strong>Tell us about your academic level
 				</div>
@@ -151,12 +151,12 @@
 					<div class="right"></div>
 					<div class="clear"></div>
 					<div class="buttonContainer">
-						<div class="right"><button>Next</button></div>
+						<div class="right"><button class="next">Next</button></div>
 					</div>
 					<div class="clear"></div>
 				</div>
 			</div>
-			<div class="page">
+			<div class="page hidden">
 				<div class="pageTitle"><strong>Social Information -</strong> We really do want to know you</div>
 				<div class="line"></div>
 				<div class="pageBody">
@@ -176,14 +176,14 @@
 						<div class="clear"></div>
 						<div class="buttonContainer">
 							<div class="right">
-								<button>Next</button>
+								<button class="next">Next</button>
 							</div>
 							<div class="clear"></div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="page">
+			<div class="page hidden">
 				<div class="pageTitle">
 					<strong>Choose a password -</strong>The last but not the least
 				</div>
@@ -212,7 +212,8 @@
 						</div>
 					</div>
 					<div class="buttonContainer">
-						<div class="right"><button>Finish</button></div>
+						<div class="right">
+							<a href="#" id="lastStepSignUp"><button>Finish</button></div></a>
 						<div class="clear"></div>
 					</div>
 				</div>
@@ -237,6 +238,14 @@
 			</ul>
 		</div>
 		<div class="clear"></div>	
+	</div>
+	<div class="hidden">
+		<div id="signUpMessageContainer">
+			<h2>Welcome!</h2>
+			<span>You will be redirected to the main page</span>
+			<div class="subContentPadding"><a href="wall" class="right"><button>OK</button></a></div>
+			<div class="clear"></div>
+		</div>
 	</div>
 </body>
 </html>
