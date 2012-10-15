@@ -60,9 +60,9 @@
 							<div class="left"><label>Gender</label></div>
 							<div class="right">
 								<select>
-									<option value="0">-- Sex --</option>
-									<option value="1">Male</option>
-									<option value="2">Female</option>
+									<option value"-1">-- Select sex --</option>
+									<option value="0">Male</option>
+									<option value="1">Female</option>
 								</select>
 							</div>
 							<div class="clear"></div>
@@ -71,13 +71,13 @@
 							<div class="left"><label>Birthday</label></div>
 							<div class="right">
 								<select>
-									<option value="0">Month</option>
+									<option value"-1">Month</option>
 								</select>
 								<select>
-									<option value="0">Day</option>
+									<option value"-1">Day</option>
 								</select>
 								<select>
-									<option value="0">Year</option>
+									<option value"-1">Year</option>
 								</select>		
 							</div>
 							<div class="clear"></div>
@@ -86,14 +86,18 @@
 							<div class="left"><label>Country</label></div>
 							<div class="right">
 								<select>
-									<option value="0"> -- Select your country --</option>
+									<option value"-1"> -- Select your country --</option>
 								</select>
 							</div>
 							<div class="clear"></div>
 						</div>
 						<div class="bodyRow">
 							<div class="left"><label>City</label></div>
-							<div class="right"><input type="text"></div>
+							<div class="right">
+								<select>
+									<option value="-1">-- Select your city --</option>
+								</select>
+							</div>
 							<div class="clear"></div>
 						</div>	
 					</div>
