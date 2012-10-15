@@ -176,6 +176,7 @@ ul
 		div#signUpContent
 		{
 			padding-bottom: 70px;
+			min-height: 300px;
 		}
 		div#signUpContent div.menuPages
 		{
@@ -234,7 +235,27 @@ ul
 		{
 			width:200px;
 		}
+		div#signUpContent div.page div.pageBody div#socialTags label
+		{
 
+		}
+		div#signUpContent div.page div.pageBody div#socialTags input
+		{
+
+		}
+		div#signUpContent div.page div.pageBody div#socialTags img
+		{
+
+		}
+
+		div#signUpContent div.buttonContainer
+		{
+			padding-top: 200px;
+		}
+		div#signUpContent div.buttonContainer button
+		{
+			width: 70px;
+		}
 
 /*Bottom*/
 	div#bottom
