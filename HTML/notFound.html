@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+	<title>Ups site not found</title>
+	<link rel="stylesheet" type="text/css" href="css/screen.css">
+	<link rel="icon" type="image/ico" href="images/fav.ico">
+	<!-- Start Scripts -->
+		<link rel="stylesheet" type="text/css" href="css/colorbox.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	<!-- End Scripts-->
+	<style type="text/css">
+		div#notFoundContent
+		{
+			margin: 0 auto;
+			width: 700;
+			text-align: center;
+			padding-top: 100px;
+			padding-bottom: 100px;
+		}
+
+		div#notFoundContent div#contentBody
+		{
+			width: 600px;
+			margin: 0 auto;
+		}
+
+		div#notFoundContent div#contentBody div.messageRow	ul li
+		{
+			width: 70px;
+			margin: 0 auto;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="header">
+			<a href="/"><img src="images/logo.png" alt="Logo"></a>
+			<a id="signIn" class="sign" href="login" about>Sign In</a>
+			<a id="signUp" class="sign" href="register">Sign Up</a>
+			<div class="clear"></div>
+	</div>
+	<div id="container" class="contentPadding" style="background-color:white;">
+		<div id="notFoundContent" class="page">
+			<div id="contentTitle">
+				<h1>Ups, there is a problem :(</h1>
+			</div>
+			<div id="contentBody">
+				<div class="messageRow">The page you requestested was not found</div>
+				<div class="messageRow">We suggest you to make this actions</div>
+				<div class="messageRow">
+					<ul>
+						<li><a href="javascript:history.back();">Go back</a></li>
+						<li><a href="/">Go Home</a></li>
+					</ul>
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
+	<div class="line"></div>
+	<div id="bottom">
+		<div id="nameContainer">
+			<a href="/">NETICS Social Network</a>
+		</div>
+		<div id="linksContainer">
+			<ul>
+				<li><a href="terms">Terms of Service</a></li>
+				<li><a href="">Help</a></li>
+				<li><a href="about">About</a></li>
+				<li><a href=""><select>
+					<option value="1">English</option>
+					<option value="2">Spanish</option>
+					<option value="3">Italian</option>
+				</select></a></li>												
+			</ul>
+		</div>
+		<div class="clear"></div>	
+	</div>
+</body>
+</html>

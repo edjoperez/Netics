@@ -1,26 +1,32 @@
-body
-{
-	margin: 0px;	
-	font-size: small;
-	font-family: helvetica;
-}
+/* Common */
+	body
+	{
+		margin: 0px;	
+		font-size: small;
+		font-family: helvetica;
+	}
 
-a
-{
-	text-decoration: none;
-	color: rgb(32,74,117);
-}
+	a
+	{
+		text-decoration: none;
+		color: rgb(32,74,117);
+	}
 
-a:hover
-{
-	color: rgb(78,122,166);
-}
+	a:hover
+	{
+		color: rgb(78,122,166);
+	}
 
-ul
-{
-	list-style:none;
-	padding:0px;
-}
+	ul
+	{
+		list-style:none;
+		padding:0px;
+	}
+
+	img
+	{
+		border:none;
+	}
 /*Header*/
 	div#header
 	{
@@ -247,22 +253,22 @@ ul
 		div#signUpContent div.page div.pageBody div#socialTags input
 		{
 			border: solid 1px black;
-			width:200px;
+			width: 420px;
+
 		}
 		div#signUpContent div.page div.pageBody div#socialTags textarea
 		{
-			width: 524px;
+			width: 474px;
 			height: 90px;
 			resize: none;
 		}
 		div#signUpContent div.page div.pageBody div#socialTags div.right
 		{
-			padding-right: 40px;
+			padding-right: 90px;
 		}
 
 		div#signUpContent div.page div.pageBody div#socialTags img
 		{
-
 		}
 
 		div#signUpContent div.buttonContainer
