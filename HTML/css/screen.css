@@ -179,12 +179,22 @@ ul
 		}
 		div#signUpContent div.menuPages
 		{
-
+			padding-top: 10px;
+			padding-bottom:10px;
+		}
+		div#signUpContent div.menuPages img
+		{
+			margin: 0 auto;
+			display: block;
 		}
 		div#signUpContent div.page
 		{
 
 		}
+		div#signUpContent div.page div.pageBody
+		{
+			padding-top:30px; 
+		}		
 		div#signUpContent div.page div.pageBody > div.left 
 		{
 			width: 43%;
@@ -225,7 +235,7 @@ ul
 			width:200px;
 		}
 
-		
+
 /*Bottom*/
 	div#bottom
 	{
@@ -256,18 +266,19 @@ ul
 		}
 
 /*Messages*/
-div#forgotMessageContainer
-{
-	width: 300px;
-	border: solid 1px blue;
-	padding: 10px 20px;
-	background-color: white;
-}
-div#forgotMessageContainer button
-{
-	width: 40px;
-	text-align: center;
-}
+	div#forgotMessageContainer
+	{
+		width: 300px;
+		border: solid 1px blue;
+		padding: 10px 20px;
+		background-color: white;
+	}
+	div#forgotMessageContainer button
+	{
+		width: 40px;
+		text-align: center;
+	}
+
 /*FOR TEST PORPOUSES*/
 div
 {
