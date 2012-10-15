@@ -186,9 +186,9 @@ ul
 			margin: 0 auto;
 			display: block;
 		}
-		div#signUpContent div.page
+		div#signUpContent div.page input
 		{
-
+			border: solid 1px black;
 		}
 		div#signUpContent div.page div.pageBody
 		{
@@ -201,6 +201,12 @@ ul
 		div#signUpContent div.page div.pageBody > div.right
 		{
 			width: 43%;
+		}
+
+		div#signUpContent div.page div.pageBody div.bodyRow
+		{
+			line-height: 20px;
+			padding-bottom:10px;
 		}
 
 		div#signUpContent div.page div.pageBody div.left div.bodyRow div.left
@@ -233,14 +239,27 @@ ul
 		{
 			width:200px;
 		}
-		div#signUpContent div.page div.pageBody div#socialTags label
+		div#signUpContent div.page div.pageBody div#socialTags div.socialName
 		{
-
+			width: 100px;
+			padding-left:30px;
 		}
 		div#signUpContent div.page div.pageBody div#socialTags input
 		{
-
+			border: solid 1px black;
+			width:200px;
 		}
+		div#signUpContent div.page div.pageBody div#socialTags textarea
+		{
+			width: 524px;
+			height: 90px;
+			resize: none;
+		}
+		div#signUpContent div.page div.pageBody div#socialTags div.right
+		{
+			padding-right: 40px;
+		}
+
 		div#signUpContent div.page div.pageBody div#socialTags img
 		{
 
@@ -253,6 +272,10 @@ ul
 		div#signUpContent div.buttonContainer button
 		{
 			width: 70px;
+		}
+		div#signUpContent div.page div.pageBody div.passwordContainer
+		{
+			padding-left:50px;
 		}
 
 /*Bottom*/
@@ -285,14 +308,14 @@ ul
 		}
 
 /*Messages*/
-	div#forgotMessageContainer
+	div#messageContainer
 	{
 		width: 300px;
 		border: solid 1px blue;
 		padding: 10px 20px;
 		background-color: white;
 	}
-	div#forgotMessageContainer button
+	div#messageContainer button
 	{
 		width: 40px;
 		text-align: center;
@@ -306,7 +329,7 @@ div
 
 /*UTILS*/
 div.clear
-	{
+{
 	clear: both;
 }
 div.line
