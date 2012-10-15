@@ -298,3 +298,21 @@ div.hidden
 {
 	display: none;
 }
+
+/* TESTING */
+body
+{
+
+}
+div#container
+{
+	background-color: #CC0000;;
+}
+div#containerSlider
+{
+	background-color: #CC0000;
+}
+div#bottom
+{
+	background-color: white;
+}
