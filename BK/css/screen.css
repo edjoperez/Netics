@@ -12,10 +12,10 @@
 		color: rgb(32,74,117);
 	}
 
-	a:hover
+	/*a:hover
 	{
 		color: rgb(78,122,166);
-	}
+	}*/
 
 	ul
 	{
@@ -38,10 +38,19 @@ header
 		width:800px;
 		margin:0 auto;
 	}
+		.signs
+		{
+			margin-top:37px;
+			margin-right: 20px;
+			float: right;
+			position: relative;
+		}
 		a.sign
 		{
 			width: 108px;
 			float: right;
+			margin-top:37px;
+			height:27px;
 			margin-right: 20px;
 			background-color:rgb(53,197,5);
 			text-align: center;
@@ -49,13 +58,6 @@ header
 			text-decoration: none;
 			font-size: 17px;
 			color: white;
-		}
-		div#fbcont
-		{
-			margin-top: 25px;
-			margin-right: 20px;
-			float: right;
-			position: relative;
 		}
 /*		a.sign:hover
 		{
