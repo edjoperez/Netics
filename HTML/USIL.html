@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+	<title>Timeline</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/sammy.js"></script>
+	<script type="text/javascript" src="js/general.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+	  $(function(){
+	  window.fbAsyncInit = function() {
+	    // init the FB JS SDK
+	    FB.init({
+	      appId      : '292661187518660', 
+	      //channelUrl : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel File for x-domain communication
+	      status     : true, // check the login status upon init?
+	      cookie     : true, // set sessions cookies to allow your server to access the session?
+	      xfbml      : true  // parse XFBML tags on this page?
+
+	    });
+
+	    // Additional initialization code such as adding Event Listeners goes here
+	    
+	    
+	    FB.api('/me/picture?type=large',function(data)
+	    	{
+	    				console.log(data);
+	    	});
+	    
+	  };
+
+	  // Load the SDK's source Asynchronously
+	  (function(d, debug){
+	     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+	     if (d.getElementById(id)) {return;}
+	     js = d.createElement('script'); js.id = id; js.async = true;
+	     js.src = "//connect.facebook.net/en_US/all" + (debug ? "/debug" : "") + ".js";
+	     ref.parentNode.insertBefore(js, ref);
+	   }(document, /*debug*/ false));
+	  });
+	</script>
+	<div class="util">
+		<div id="chatContainer">
+			<div id="status">
+				Online
+			</div>
+		</div>
+	</div>
+	<header>
+		<div id="top">
+			<div class="wrapper">
+				<div id="logo" class="left">
+					<h1>
+						<a href="#/timeline">San Ignacio de Loyola </a>
+					</h1>
+				</div>
+				<div id="panelConfiguration" class="right">
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div id="panel">
+			<div class="wrapper">
+				<div class="left">
+					<div class="left"><span>
+
+						<h3>NETICS</h3></span></div>
+					<div id="optionMenu" class="left">	<ul>
+						<li id="homeOption">
+							<img src="images/icons/home.png">
+						</li>
+						<li><span id="messageOption"><img src="images/icons/mensaje.png"></span></li>
+						<li>
+						<span id="notificationOption"><img src="images/icons/campana.png"></span>
+						</li>
+						</ul>
+					</div>
+					<div id="searchContainer" class="left">
+						<form method="POST" action="search">
+							<input placeholder="Search for people, communities or conversations" type="submit text">
+						</form>
+					</div>
+					<div class="clear"></div>
+				</div>
+
+				<div class="right">
+					<div id="menu">
+						<ul>
+							<li><a href="#/fleaMarket">Flea Market</a>
+							</li>
+							<li>
+								<a href="#/addMembers">Add</a>
+							</li>
+							<li>
+								<a href="#/people">People</a>
+							</li>
+							<li>
+								<a href="#/communitites">Communitites</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</header>
+
+	<div id="pageContent">
+		<div id="control" class="left">
+			<div id="media">
+				<img id="profileImage" width="135" height="135"	 src="/images/profile.jpg" alt="profile image">
+				<span>
+					<a href="#profile">Edgar Perez </a>
+				</span>
+			</div>
+
+			<div id="nav">
+				<div id="divitions">
+					<ul>
+						<li class="selected">
+							<a href="#/timeline">Timeline</a>
+						</li>
+						<li>
+							<a href="#/inbox">Inbox</a>
+						</li>
+						<li>
+							<a href="#/	schedule">My Schedule</a>
+						</li>
+					</ul>
+				</div>
+				<div id="communitites">
+					<h3>Communities</h3>
+					<ul>
+						<li>
+							<a href="#/communities/neticsTeam">Netics Team</a>					
+						</li>
+						<li>
+							<a href="#/communities/studyGroup">Study Group</a>
+						</li>
+						<li>
+							<a href="#/communities/osGroup">
+							OS Group</a>
+						</li>
+					</ul>
+
+				</div>
+
+			</div>
+
+			</div>
+		<div id="content" class="left">
+		</div>
+		<div class="clear"></div>
+	</div>
+	<footer>
+		<div id="nameContainer">
+			<a href="/">NETICS Social Network</a>
+		</div>
+		<div id="linksContainer">
+			<ul>
+				<li><a href="terms">Terms of Service</a></li>
+				<li><a href="help">Help</a></li>
+				<li><a href="about">About</a></li>
+				<li><a href=""><select>
+					<option value="1">English</option>
+					<option value="2">Spanish</option>
+					<option value="3">Italian</option>
+				</select></a></li>												
+			</ul>
+		</div>
+		<div class="clear"></div>	
+	</footer>
+</body>
+</html>

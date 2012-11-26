@@ -1,0 +1,567 @@
+body
+{
+	margin: 0 auto;
+	font-size: small;
+	font-family: sans-serif;
+}
+div.wrapper
+{
+	width: 980px;
+	margin: 0 auto;
+}
+header
+{	
+	border-bottom: 1px solid #CCC;
+}
+div#top
+{
+	background-color:#396B9A;
+	height: 57px;
+}
+	div#top div.wrapper div#logo h1 a
+	{
+		color:white;
+	}
+	div#top div.wrapper div#logo h1
+	{
+		font-size: 32px;
+		height: 56px;
+		line-height: 52px;
+		margin: 0px;
+	}
+	div#top div.wrapper div#panelConfiguration
+	{
+		height: 27px;
+		width: 42px;
+		background-color: grey;
+	}
+
+div#panel
+{
+	background-color: whitesmoke;
+	height: 40px;
+}
+	div#panel div.wrapper 
+	{
+		padding-top: 10px;
+	}
+
+	div#panel div.wrapper div.left div#optionMenu
+	{
+		padding-left: 20px;
+	}
+	div#panel div.wrapper div.left div#optionMenu li
+	{
+		margin-left: 12px;
+		width:20px;
+		height: 20px;
+	}
+
+	div#panel div.wrapper div.left div#optionMenu li span
+	{
+		cursor: pointer;
+	}
+
+	div#panel div.wrapper div.left div#searchContainer
+	{
+		padding-left: 40px;
+	}
+
+	div#panel div.wrapper div.left div#searchContainer input
+	{
+		width: 370px;
+		margin-top: -10px;
+		padding-top:5px;
+		padding-left:5px;
+		padding-bottom: 5px;
+	}
+
+	div#panel div.wrapper div.right div#menu li
+	{
+		margin-right: 5px;
+		padding:5px;
+	}
+
+	div#panel div.wrapper div.right div#menu li:hover
+	{
+
+		color:#16509E;
+		background-color: white;
+		border: 1px #CCC solid;
+		border-radius: 2px;
+	}
+
+
+div#pageContent
+{
+	width: 980px;
+	margin: 0 auto;
+}
+
+	div#control
+	{
+		width: 172px;
+		min-height: 400px;
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+
+		div#control div#media
+		{
+			text-align: center;
+			font-weight: bold;
+		}
+
+		div#control div#media img
+		{
+			margin: 0 auto;
+			display: block;
+		}
+
+		div#nav
+		{
+			padding-top:40px;
+			padding-left:20px;
+		}
+
+			div#nav li
+			{
+				display:list-item;
+				padding-bottom: 5px;
+				padding-top:7px;	
+				padding-left:7px;
+			}
+
+			div#nav li:hover
+			{
+				background: #EFEFEF;
+			}
+
+			div#nav li.selected
+			{
+				background: #EFEFEF;	
+			}
+
+			div#nav div#divitions
+			{
+				padding-bottom: 10px;
+			}
+
+			div#nav div#communitites
+			{
+				padding-top: 10px;
+			}
+			div#nav div#communitites ul
+			{
+				padding-top: 5px;
+			}
+
+			div#nav div#communitites li
+			{
+				padding-left: 20px;
+			}
+	div#content
+	{
+		border-left: solid 1px gray;
+		min-height: 500px;
+	}
+	/*Timeline*/
+		div#content div.creatorColumn
+		{
+			padding-left: 20px;
+			padding-top: 30px;
+		}
+		div#content div.creatorColumn div#creatorOptions
+		{
+			margin:0 auto;
+		}
+
+		div#content div.creatorColumn div#creatorOptions ul li
+		{
+			margin-left: 10px;
+			color: blue;
+		}
+		div#content div.creatorColumn div#creatorOptions ul li.selected
+		{
+			color: black;
+		}
+		div#content div.creatorColumn div#creatorOptions ul li:hover
+		{
+			cursor:pointer;
+		}
+
+		div#content div.creatorColumn div#creatorBox
+		{
+			padding-top: 10px;
+		}
+		div#content div.creatorColumn div#creatorBox textarea
+		{
+			width: 450px;
+			resize:none;
+			margin: 0 auto;
+			display: block;
+			padding: 10px;
+		}
+	
+	/*Inbox*/
+		div#content div.inboxContent div.contentHeader
+		{
+			width: 755px;
+			height: 60px;
+			background-color:whiteSmoke;
+			border-bottom: 1px solid #CCC;
+			padding-top: 20px;
+			padding-left: 20px;	
+		}
+		div#content div.inboxContent div.left button	
+		{
+			margin-left: 30px;
+			padding-left: 20px;
+			padding-right: 20px;
+			cursor:pointer;
+		}
+
+		div#content div.inboxContent div.contentHeader div.right button
+		{
+			background-color: #63AD01;
+			font-weight: bold;
+			color: white;
+			height: 30px;
+			width: 180px;
+			cursor:pointer;
+		}
+		div#content div.inboxContent div.contentHeader div.right button:hover
+		{
+			background-color: #63A500;
+		}
+		div#content div.inboxContent div.contentHeader div.right button:active
+		{
+			background-color: #2F6101;
+		}
+		div#content div.inboxContent div.inboxBodyContent div#searchBox
+		{
+			padding-top: 30px;
+		}
+		div#content div.inboxContent div.inboxBodyContent div#searchBox input
+		{
+			padding: 3px;
+			width: 200px;
+			margin-right: 30px;
+
+		}
+		div#content div.inboxContent div.inboxBodyContent div.inboxMessagesContainer
+		{
+			padding-top: 30px;
+			padding-left: 20px;
+			padding-bottom: 40px;	
+		}
+		div#content div.inboxContent div.inboxBodyContent div.noMessages
+		{
+		
+			text-align: center;
+			padding-top:50px;
+			padding-bottom:50px;
+			color: #666;	
+		}
+		div#content div.inboxContent div.inboxBodyContent div.inboxMessagesContainer div.messagesRows
+		{
+
+		}
+		div#content div.inboxContent div.inboxBodyContent div.inboxMessagesContainer div.messagesRows div.mrow
+		{
+			min-height: 70px;
+			background-color:#E8E8E8;
+			margin-left: 2px;
+			margin-right: 2px;
+		}
+		div#content div.inboxContent div.inboxBodyContent div.inboxMessagesContainer div.messagesRows div.message
+		{
+			padding-top: 10px;
+		}
+		div#content div.inboxContent div.inboxBodyContent div.inboxMessagesContainer div.messagesRows div.message h3
+		{
+			display: inline;
+		}
+		div#content div.inboxContent div.inboxBodyContent div.inboxMessagesContainer div.messagesRows div.messageTime
+		{
+			color:#666;
+			padding-top: 15px;
+			
+		}
+		div#content  div.privateBodyContent
+		{
+			padding-left: 20px;
+			padding-top: 20px;
+		}
+		div#content  div.privateBodyContent div.right div.messageDoer
+		{
+			padding-bottom: 10px;
+		}
+		div#content  div.privateBodyContent div.right
+		{
+			padding-left:15px;	
+		}
+		div#content  div.privateBodyContent div.right div.messageDoer span
+		{
+			padding-left:10px;
+			color: gray;
+		}
+		div#content  div.privateBodyContent div.messageControls ul
+		{
+			color: blue;
+			margin-left:50px;
+		}
+		div#content  div.privateBodyContent div.messageControls li
+		{
+			margin-left:10px;
+			cursor: pointer;
+		}
+		div#content div.privateBodyContent div.messageControls span.messageTime
+		{
+			color: gray;
+			margin-left:30px;
+		}
+		div#content div.privateBodyContent article div.row div.participant
+		{
+			padding-left: 30px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			background: url("../images/icons/conectado.png") no-repeat 5px;
+		}
+
+	/*Stories*/
+		div#content div.sideColumn
+		{
+			margin-left: 10px;
+			padding-top:20px;
+		}
+		div.stories
+		{
+			padding-top: 20px;
+		}
+		div.separator
+		{
+			width:500px;
+			border-top:solid 1px gray;
+			padding-top: 15px;
+
+		}
+
+			div.story
+			{
+				width:500px;
+				padding-left:20px;
+				padding-bottom:20px;
+			}
+			div.story div.storyContainer
+			{
+				width:410px;
+				padding-left: 20px;
+			}
+			div.story div.storyDoer
+			{
+				padding-top: 10px;
+				padding-bottom: 10px;
+				cursor:pointer;
+			}
+
+			div.story span.storyOrg
+			{
+				margin-left:20px;
+				color: gray;
+			}
+			div.story div.storyPanel li
+			{
+				margin-right: 10px;
+				color:blue;
+				cursor:pointer;
+			}
+
+			div.story div.storyPanelControls
+			{
+				padding: 20px;
+				background-color: whiteSmoke;
+			}
+			div.story div.storyPanelControls div.comment textarea
+			{
+				display: block;
+				margin: 0 auto;
+				width: 350px;
+			}
+			div.moreStories
+			{
+				border:solid 1px black;
+				font-weight: bold;
+				text-align: center;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				width: 400px;
+				margin: 0 auto;
+				cursor: pointer;
+			}
+		
+			div#content article
+			{
+				border: solid 1px black;
+				padding: 5px;
+				width: 230px;
+				font-size: 11px;
+				margin-bottom: 30px;
+				margin-top: 5px;
+			}
+			div#content article div.subArticle:first-child
+			{
+				margin-bottom: 10px;
+			}
+			div#content article div.subArticle div.inputContainer
+			{
+				padding-top:10px;
+				padding-bottom: 10px;
+			}
+
+			div#content article div.row
+			{
+				border-bottom: solid 1px black;
+				width: 225px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
+			div#content article div.row span
+			{
+				color: blue;
+				font-weight: bold;
+			}
+			/*COMMON*/
+				div.storyPanelControls
+				{
+					padding: 20px;
+					background-color: whiteSmoke;
+					padding-bottom: 10px;
+				}
+				div.storyPanelControls div.comment textarea
+				{
+					display: block;
+					margin: 0 auto;
+					width: 350px;
+				}
+				div.storyPanelControls button
+				{
+					background-color:#3C8DC1;
+					color: white;
+					font-weight: bold;
+					margin-top: 10px;
+				}
+				div.storyPanelControls button:active
+				{
+					background-color:#1B75AF;
+				}
+
+
+
+/*BOTTOM*/
+	footer
+	{
+		padding-top: 30px;
+		padding-bottom:25px;
+		border-top: solid 1px black;
+	}
+	footer div#nameContainer
+	{
+		float: left;
+		margin-top: 5px;
+		margin-left: 40px;
+	}
+	footer div#linksContainer
+	{
+		float: right;
+		margin-right: 40px;
+	}
+
+	footer div#linksContainer ul
+	{
+		list-style: none;
+		margin: 0 0 0 0;	
+	}
+		footer div#linksContainer ul li 
+		{
+			display: inline;
+			margin-right: 20px;
+		}
+
+/*UTIL*/
+	.left
+	{
+		float:left;
+	}
+
+	.right
+	{	
+		float:right;
+	}
+
+	.clear
+	{
+		clear: both;
+	}
+	a
+	{
+		text-decoration: none;
+		color: black;
+	}
+	a:visited
+	{
+
+	}
+
+	ul, li
+	{
+		padding: 0px;
+		margin: 0px;
+		list-style: none;
+		display: inline;
+	}
+	h1,h2,h3,h4,h5
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+	input, textarea
+	{
+		border:solid 1px black;
+		resize:none;
+	}
+	div.util div#chatContainer
+	{
+		width: 190px;
+		height: 25px;
+		background-color: #182C37;
+		right: 30px;
+		bottom: 0px;
+		position: fixed;	
+		cursor: pointer;
+	}
+	div.util div#chatContainer div#status
+	{
+		line-height: 23px;
+		color: white;
+		text-align: left;
+		padding-left: 40px;
+		font-weight: bold;
+		background: url("../images/icons/conectado.png") no-repeat 10px 5px;
+	}
+	.hidden
+	{
+		display: none;
+	}
+	button
+	{
+		border:solid 1px black;
+	}
+/*TESTING*
+
+	div
+	{
+		border: solid 1px red;
+	}
+/*	*/
+

@@ -107,29 +107,58 @@ header
 		}
 
 /*Content*/
+	/*Index*/
+	div#mainContainer	
+	{
+		height: 380px;
+		background:url("../images/index-background.jpg");
+		padding-top:50px;
+		padding-left:50px;
+		text-align: left;
+		border-top: 1px solid grey;
+	}
+	 div#mainContainer div#mainMessage
+		{
+			width: 330px;
+		}
+
+		div#mainContainer div#mainMessage div#mainMessageOptionContainer
+		{
+			padding-left: 40px;
+		}
+
+		div#mainContainer div#mainMessage div.mainMessageHeader h1
+		{
+			font-size: 33px;
+		}
+		div#mainContainer div#mainMessage div.mainMessageText
+		{
+			font-size: 16px;
+		}
+		div#mainContainer div#mainMessage div#mainMessageOptionContainer div.mainMessageOption
+		{
+			height: 40px;
+			width: 200px;
+			opacity: 0.7;
+			background-color: black;
+			color:white;
+			text-align: center;
+			line-height: 40px;
+		}
+
 	div#container
 	{
 		border-top: 1px solid grey;
 		/*padding-bottom: 70px;*/
-		text-align: justify;
-		background-color: #CC0000;
+		background-image: url("../images/common.png");
 	}
 		div.contentPadding
 		{
 			padding-top:70px;
 			padding-bottom: 70px;			
 		}
-		
-		div#containerSlider
-		{
-			height: 360px;
-			background-color: #CC0000;
-		}
-		div#slider
-		{
-			margin: 0 auto;
-			width:840px;
-		}
+
+
 		div.content
 		{
 			margin: 0 auto;
@@ -139,6 +168,7 @@ header
 			padding-left: 80px;
 			padding-right: 80px;
 			margin-bottom:20px;
+			box-shadow:2px 2px 2px 2px;
 		}
 		div.content div.subcontent
 		{
@@ -167,6 +197,20 @@ header
 			display: block;
 			margin: 0 auto;
 		}
+		
+		/*Help*/
+		div.helpPadding div.bodyRow
+		{
+			margin-bottom: 10px;
+		}
+		div.helpPadding div.bodyRow div.container
+		{
+			border: solid 1px grey;
+			padding:10px;
+			width: 500px;
+		}
+
+
 
 		/*About*/
 		div.aboutPadding
@@ -214,8 +258,8 @@ header
 		}
 		div#signUpContent div.menuPages
 		{
-			padding-top: 10px;
-			padding-bottom:10px;
+			padding-top: 20px;
+			padding-bottom:20px;
 		}
 		div#signUpContent div.menuPages img
 		{
@@ -303,7 +347,7 @@ header
 
 		div#signUpContent div.buttonContainer
 		{
-			padding-top: 200px;
+			
 		}
 		div#signUpContent div.buttonContainer button
 		{
@@ -315,29 +359,29 @@ header
 		}
 
 /*Bottom*/
-	div#bottom
+	footer
 	{
 		padding-top: 30px;
 		padding-bottom:25px;
 	}
-	div#nameContainer
+	footer div#nameContainer
 	{
 		float: left;
 		margin-top: 5px;
 		margin-left: 40px;
 	}
-	div#linksContainer
+	footer div#linksContainer
 	{
 		float: right;
 		margin-right: 40px;
 	}
 
-	div#linksContainer ul
+	footer div#linksContainer ul
 	{
 		list-style: none;
 		margin: 0 0 0 0;	
 	}
-		div#linksContainer ul li 
+		footer div#linksContainer ul li 
 		{
 			display: inline;
 			margin-right: 20px;
@@ -378,3 +422,5 @@ div.hidden
 }
 
 /* TESTING */
+
+

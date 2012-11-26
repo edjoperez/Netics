@@ -1,4 +1,4 @@
 RewriteEngine on
-ErrorDocument 404 /notFound.html
-IndexIgnore *
+#ErrorDocument 404 /notFound.html
+#IndexIgnore *
 #Activate RewriteEngine

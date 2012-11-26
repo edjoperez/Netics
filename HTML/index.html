@@ -5,21 +5,13 @@
 	<link rel="stylesheet" type="text/css" href="css/screen.css">
 	<link rel="icon" type="image/ico" href="images/fav.ico">
 	<!-- Start Scripts -->
-		<link rel="stylesheet" type="text/css" href="css/colorbox.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script type="text/javascript">
-		if($)
-			{
-				console.log("hola");
-			}
-		</script>
-		<script type="text/javascript" src="js/jquery.colorbox.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 	<!-- End Scripts-->
 </head>
 <body>
 	<div id="fb-root"></div>
-	<script>
+	<script type="text/javascript">
 	  $(function(){
 	  window.fbAsyncInit = function() {
 	    // init the FB JS SDK
@@ -34,13 +26,13 @@
 
 	    // Additional initialization code such as adding Event Listeners goes here
 	    
-	    // $("body").click(function()
-	    // 	{
-	    // 		FB.login(function()
-	    // 			{
-	    // 				// document.location= "wabadaba";
-	    // 			});
-	    // 	});
+	    $("#fb").click(function()
+	    	{
+	    		FB.login(function()
+	    			{
+	    				document.location= "information";
+	    			});
+	    	});
 	  };
 
 	  // Load the SDK's source Asynchronously
@@ -61,22 +53,33 @@
 	</div>
 </header>
 
-	<div id="container" class="contentPadding" style="background-color:white;">
-		<div id="containerSlider">
-			<div id="slider">
-				<a href="/register"><img src="images/slider.png"></a>
-				<div class="clear"></div>
+	<div id="mainContainer" class="contentPadding">
+		<div id="mainMessage">
+			<div class="mainMessageHeader">
+				<h1>Netics is not another social Network</h1>
+			</div>
+			<div class="mainMessageText">
+				<p>Collaborate securely with people with similar researches
+and interests as you</p>
+			</div>
+			<div id="mainMessageOptionContainer">
+			<a href="about">
+				<div class="mainMessageOption">
+					<h2>What is Netics?</h2>
+				</div>
+				</a>
+			<div class="clear"></div>
 			</div>
 		</div>
 	</div>
-	<div id="bottom">
+	<footer>
 		<div id="nameContainer">
 			<a href="/">NETICS Social Network</a>
 		</div>
 		<div id="linksContainer">
 			<ul>
 				<li><a href="terms">Terms of Service</a></li>
-				<li><a href="">Help</a></li>
+				<li><a href="help">Help</a></li>
 				<li><a href="about">About</a></li>
 				<li><a href=""><select>
 					<option value="1">English</option>
@@ -86,6 +89,6 @@
 			</ul>
 		</div>
 		<div class="clear"></div>	
-	</div>
+	</footer>
 </body>
 </html>
